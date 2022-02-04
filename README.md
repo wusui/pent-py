@@ -13,6 +13,12 @@ only output is a solution.  It runs on python 3.9 or newer.
 
 As far as I can tell, no parameters are changed by the execution of this program.  So I believe that this code is a pure functional programming implementation.
 
+To run this program, enter the python commands:
+```
+from pentomino import pentomino
+print(pentomino())
+```
+
 ### GENERAL ALGORITHM
 This program recursively tries placing different pentominos in a grid.  When adding
 a pentomino, the position that is selected to place a pentomino is the leftmost highest
@@ -70,8 +76,8 @@ that if it is placed it is placed in either half.
 
 To display this value, run the following python commands:
 ```
-from pentomino import pentomino
-print(pentomino())
+from tree_main_builder import tree_main_builder
+print(tree_main_builder())
 ```
 The tree structure is a tuple of Objects called tree nodes.  Element 0 of the tree is a
 root node representing point [0, 0] of a potential pentomino placement.  The data in the tree
