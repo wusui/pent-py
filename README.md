@@ -1,4 +1,4 @@
-# pent-js
+# pent-py
 
 # My Own Private Functional Programming Pentomino Project
 
@@ -68,9 +68,10 @@ that if it is placed it is placed in either half.
 
 ### TREE STRUCTURE
 
-To display this value, run the following node.js command:
+To display this value, run the following python commands:
 ```
-console.log(require('./tree_main_branch').treeData());
+from pentomino import pentomino
+print(pentomino())
 ```
 The tree structure is a tuple of Objects called tree nodes.  Element 0 of the tree is a
 root node representing point [0, 0] of a potential pentomino placement.  The data in the tree
